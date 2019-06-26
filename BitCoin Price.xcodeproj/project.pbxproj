@@ -10,8 +10,8 @@
 		8FBE5C0022C1EDA50027A997 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE5BFF22C1EDA50027A997 /* AppDelegate.swift */; };
 		8FBE5C0222C1EDA50027A997 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE5C0122C1EDA50027A997 /* ViewController.swift */; };
 		8FBE5C0522C1EDA50027A997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBE5C0322C1EDA50027A997 /* Main.storyboard */; };
-		8FBE5C0722C1EDA70027A997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FBE5C0622C1EDA70027A997 /* Assets.xcassets */; };
 		8FBE5C0A22C1EDA70027A997 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBE5C0822C1EDA70027A997 /* LaunchScreen.storyboard */; };
+		8FBE5C1422C1F3370027A997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FBE5C1322C1F3370027A997 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,9 +19,9 @@
 		8FBE5BFF22C1EDA50027A997 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FBE5C0122C1EDA50027A997 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8FBE5C0422C1EDA50027A997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8FBE5C0622C1EDA70027A997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FBE5C0922C1EDA70027A997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FBE5C0B22C1EDA70027A997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FBE5C1322C1F3370027A997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 				8FBE5BFF22C1EDA50027A997 /* AppDelegate.swift */,
 				8FBE5C0122C1EDA50027A997 /* ViewController.swift */,
 				8FBE5C0322C1EDA50027A997 /* Main.storyboard */,
-				8FBE5C0622C1EDA70027A997 /* Assets.xcassets */,
+				8FBE5C1322C1F3370027A997 /* Assets.xcassets */,
 				8FBE5C0822C1EDA70027A997 /* LaunchScreen.storyboard */,
 				8FBE5C0B22C1EDA70027A997 /* Info.plist */,
 			);
@@ -123,7 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FBE5C0A22C1EDA70027A997 /* LaunchScreen.storyboard in Resources */,
-				8FBE5C0722C1EDA70027A997 /* Assets.xcassets in Resources */,
+				8FBE5C1422C1F3370027A997 /* Assets.xcassets in Resources */,
 				8FBE5C0522C1EDA50027A997 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +285,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39UKT9V2XN;
 				INFOPLIST_FILE = "BitCoin Price/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,7 +293,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.prashanttripathi.BitCoin-Price";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -303,6 +304,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39UKT9V2XN;
 				INFOPLIST_FILE = "BitCoin Price/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.prashanttripathi.BitCoin-Price";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
