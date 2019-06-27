@@ -63,6 +63,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="countryPicker" destination="mU0-Jr-s1D" id="9RQ-fz-YsH"/>
+                        <outlet property="priceLable" destination="XRt-ku-WHQ" id="ms4-Hu-rtB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
